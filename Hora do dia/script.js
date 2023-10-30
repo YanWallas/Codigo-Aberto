@@ -5,11 +5,11 @@ var img = window.document.getElementById('imagem');
 var data = new Date();
 var hora = data.getHours();
 var min = data.getMinutes();
-var seg = data.getSeconds();
+
 
 //var hora = 20
 
-msg.innerHTML = `Agora são ${hora}:${min}:${seg}.`;
+msg.innerHTML = `Agora são ${hora}:${min}`;
 
 if (hora >= 0 && hora < 12) {
     //Bom dia
