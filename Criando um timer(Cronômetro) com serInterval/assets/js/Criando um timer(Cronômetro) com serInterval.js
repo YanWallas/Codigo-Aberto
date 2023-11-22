@@ -67,7 +67,7 @@ function relogio() {//Colocando tudo dentro da function(tirar do escopo global d
     }
 
     document.addEventListener('click', function(e) {
-        const el = e.target;// e.Ttrget -> qual elemento esta sendo clicado.
+        const el = e.target;// e.Target -> qual elemento esta sendo clicado.
         
         if(el.classList.contains('zerar')) { // se o elemento tiver essa class.
             clearInterval(timer);//nao criar mais de um timer quando aperta iniciar.
