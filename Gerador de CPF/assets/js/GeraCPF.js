@@ -7,7 +7,7 @@ class GerarCPF {
         return (
             cpf.slice(0, 3) + '.' +
             cpf.slice(3, 6) + '.' +
-            cpf.slice(6, 9) + '-.' +
+            cpf.slice(6, 9) + '-' +
             cpf.slice(9, 11)
         );
     }
@@ -25,7 +25,7 @@ const GCPF = document.querySelector('.GCPF');
 function click() {
     GCPF.addEventListener('click', ()=> {
         const gera = new GerarCPF();
-        const cpfGerado = document.querySelector('.cpf-gerado');
+        const cpfGerado = document.querySelector('.gera-cpf');
         cpfGerado.innerHTML = gera.geraNovoCpf();
     })
 }

@@ -57,7 +57,7 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.senha-gerada {
+.gera-cpf {
   font-size: 2em;
   color: var(--primary-color);
   margin: 40px 0;
